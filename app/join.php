@@ -372,6 +372,7 @@
 				<?php if (isset($_GET["ex"])): ?><input type="hidden" name="ex" value="1"><?php endif; ?>
 
 				<input type="submit" class="sendAll" value="ОТПРАВИТЬ ЗАЯВКУ" onsubmit="JavaScript:this.subbut.disabled=true">
+				<label class="agreement">Отправляя форму, вы даёте согласие на обработку своих персональных данных.</label>
 			</section>
 		</form>
 
